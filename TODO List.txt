@@ -1,0 +1,45 @@
+Here's a list of the issues I believe can't be fixed by editing the pictures in Photoshop due to limited space + what looks like a mystery to me:
+1) "...\data\battle\itp", I won't touch Sepith palettes in battle2.png yet. I'll keep it there at the end, when major stuff has been fixed.
+2) In "...\data\effect\texture" we have S-Craft/Conbi-Craft portraits. While most of them are also used in the battle folder and work perfectly fine at 1024p, during Conbi-Craft they overflow from their frames, so those are at 512p. The same ones, when using an S-Craft, are completely white. A mystery to me. I also tried the assets I was given before I even started this, and didn't work either.
+
+Example: https://cdn.discordapp.com/attachments/415906428763504660/489584888136335361/unknown.png
+
+3) "...\data\monsnote" crashes my game, but it works fine with the latest update.
+
+4) "...\data\visual" features a weird issue. The Difficulty description in the main menu disappeared. This is extra00.png, maybe replacing the palette next to record or above "The Legendo of Heroes" may fix this: https://cdn.discordapp.com/attachments/415906428763504660/489608143731425280/unknown.png
+	Sully, Appas, Mireille, and Shuri have been included just to be safe, in case you/I'll change your/my mind (this also goes for the face folder).
+
+5) "...\data\system" has fully been replaced (itp wise). It does require some love, as I'm afraid of touching letters to move stuff around. Here's the deal:
+
+	- Camp Menu looks fine to me: https://cdn.discordapp.com/attachments/415906428763504660/489594132772290580/unknown.png
+	- Sepith count needs to be moved up a couple pixels: https://cdn.discordapp.com/attachments/415906428763504660/489594301001498635/unknown.png
+	- General font needs some enhancement love.
+
+6) The "...\data\etc" folder of death. This is the worst trash this game threw on us, and I swear it's already making me cry knowing Ao no Kiseki needs the same (or even more) love. So, hope I don't forget anything:
+
+	- c_font.png, I don't know how font enhancement works, but this has the same resolution (I believe, if not it's higher or I wouldn't have replaced it) as the PC one. Thing is, it looks bad on my screen. If it can receive some love, that'd be really cool.
+	- c_icon1.png, the source of all Nightmares (but it has friends >.>). Now posting example to show why this freaking picture is awful:
+		a) Here, the "Start" icon is clipping the "Skip" word, and if you check the PNG, there's no space to shift it: https://cdn.discordapp.com/attachments/415906428763504660/489589233678286850/unknown.png
+		b) Slots level. Next to their Quartz in the middle menu, they seem to look almost fine. In the Orbment scheme, the edge of the "Slot level" is clipped by the Slot. I compared it to the original, and they're placed in the exact same pixels, I'm not positive I wanna touch that. Also, slots seem to be "linked". That's also a visual bug: https://cdn.discordapp.com/attachments/415906428763504660/489184273241341962/unknown.png
+		c) The final boss: Craft Icons. I've already fixed (I hope they're fine too) the icons in the PNG. Even so, they still need manual fixes: https://cdn.discordapp.com/attachments/415906428763504660/489601090824962048/unknown.png
+		That is not all. In the above picture, you can see how each category of Craft is aligned, but missaligned compared to another category. This behavior also applies to battles, just less noticeable because they're in different menus:
+		https://cdn.discordapp.com/attachments/415906428763504660/489601984609910786/unknown.png
+		https://cdn.discordapp.com/attachments/415906428763504660/489602027178033167/unknown.png
+		https://cdn.discordapp.com/attachments/415906428763504660/489602055028080652/unknown.png
+		Maybe, fixing one will fix the other too. Needs to be confirmed.
+	- c_note_n, c_note10 through 67, and chrimg00 through 09 crash the game as I access the relative pages in the Notebook. Possibly due to filesize, they're all huge compared to their originals. "tm_repo1" and "tm_repo2" need to be tested for the same reason.
+	- There exists a "Test Folder" to test "chrimg00 through 09" @1024p. I can't even test the 512p version, so I can't judge this one.
+	- c_waku3 is another source of missalignemnt. Text is up shifted, while Icons and counts are fine. This happens in all menus which share the same restyle, so that does happen in battle too:
+	https://cdn.discordapp.com/attachments/415906428763504660/489601090824962048/unknown.png
+	https://cdn.discordapp.com/attachments/415906428763504660/489605984738869248/unknown.png
+	https://cdn.discordapp.com/attachments/415906428763504660/489594301001498635/unknown.png
+	https://cdn.discordapp.com/attachments/415906428763504660/489184273241341962/unknown.png (Goes for Arts in the same menu too)
+	https://cdn.discordapp.com/attachments/415906428763504660/489601984609910786/unknown.png
+	Menu Tactics and System look fine.
+
+7) "...\data\extra", I don't have Characters and Movie unlocked yet, so if anyone can check alignment for the new Extra icons, feedback would be appreciated.
+
+I'm gonna leave here all imgur folders I made:
+https://imgur.com/a/wpNUeFf
+https://imgur.com/a/RgqZ8YF
+https://imgur.com/a/G2IJYL5
