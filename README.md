@@ -1,4 +1,4 @@
-Eiyuu Densetsu ~Zero no Kiseki KIWAMI~: an assets' upgrade project
+Eiyuu Densetsu -Zero no Kiseki KIWAMI-: an assets upgrade project
 =========
 
 The aim of this project is to attempt to upgrade the look of various portraits in the PC version of *The Legend of Heroes: Trails from Zero*. As many of you probably already know, Trails from Zero has been ported from PSP to PC and released in China by JOYOLAND. Long story short, in 2013 it was localized to Japanese and released with **Windows 8 support**. However, the game didn't come free of bugs and graphical issues, the most common of which was the yellowish shade all portraits features. What I tried to do was to fix this issue by porting the good assets from the *Evolution version* of the game, all the while trying to upscale them to better fit the higher resolution of the PC version. From Evolution, I also ported a few other things, and they'll be included in this package as a separate download. We'll go into details in a bit.
