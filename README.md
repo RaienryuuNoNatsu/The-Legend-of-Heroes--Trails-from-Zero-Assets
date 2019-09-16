@@ -7,7 +7,7 @@ The aim of this project is to attempt to upgrade the look of various portraits i
 
 This isn't by far an original project, and thus some users may already know where I'm going with this. Believe it or not, many of the assets available in the Vita version of the game had the same resolution as the PC version. Heck, there are even assets at higher resolutions. Unfortunately though, the **dialogue portraits (and not only those) aren't part of those lucky assets**. While the PC version features 384p portraits, the Vita version runs them at 256p. In these cases, where possible, I used **Waifu2x**.
 
-For those who don't know what that is, it's a **Convolutional Neural Network** whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter. The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a way the artifacts.
+For those who don't know what that is, it's a **[Convolutional Neural Network]**(https://en.wikipedia.org/wiki/Convolutional_neural_network) whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter. The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a way the artifacts.
 
 **NOTE**: I began working on this project quite some time ago. I'll keep researching this subject, and eventually update the assets as I find better methods. I'm also open to suggestions about which Neural Network to test, should anyone among the users know about a better one.
 
@@ -23,15 +23,28 @@ You can purchase the game from Amazon Japan or DLSite, and you can use [this gui
 
 This is a patch that fixes A LOOOT of issues with the vanilla version of the game, and it's the only way for my assets to work, as this adds PNG support to it. You can download the patch on [their blog](https://geofront.esterior.net/).
 
-With this out of the way, we can actually talk about the project in detail.
+With the preparations out of the way, we can actually talk about the project in detail.
 
 ## The core of the project
 
-So, as I said, the main objective is to to bring the portraits up to speed, but I wanna talk a bit more in-depth about what that entails. But first, a comparison for you, so you have an idea about what we're talking about.
+So, as I said, the main objective is to to bring the portraits up to speed, but I wanna talk a bit more in-depth about what that entails. So, let me present to you **Eiyuu Densetsu: Zero no Kiseki KIWAMI**!
 
-![Pic1](doc/res/01.png)
+![Pic1](doc/res/00.png)
 
-As showed, the idea is that all these kind of portraits have been fixed. This means **dialogue portraits**, **half-body portraits**, **battle portraits**, **cooking portraits**, and so on so forth. There's a catch: the Geofront patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
+Yes, I took the liberty of adapting the logo using the name of this project. A big thank you to **[Solabalossa]**(https://www.youtube.com/channel/UC5F_He18MGpwZxVrsr8uZUA) who made the logo, and to **tobeavailablesoon** who worked on a few details and refinements. The result of their combined efforts is what follows.
+
+![Pic2](doc/res/01.png)
+
+As you can see, I tried to be as consistent as I could, and made sure to not miss these details. With the presentation out of the way, it's comparisons timeand I have a good example of the yellowish shade I was talking about at the beginning.
+
+![Pic3](doc/res/02.png)
+
+As showed, the idea is that all these kind of portraits have been fixed. This means **dialogue portraits**, **half-body portraits**, **battle portraits**, **cooking portraits**, and so on so forth. Let'see a few comparisons, just so you can have an idea of what's been changed.
+
+![Pic4](doc/res/03.png)
+(*Don't mind the missing HP/EP/CP bars, that's just me messing around with assets. It's NOT a bug of the original game.*)
+
+There's a catch: the Geofront patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
 
 All the portraits I mentioned have been doubled (some even quadrupled) in terms of resolution. Unfortunately, as I mentioned at the beginning, the PC version came out with many bugs and also kept the limitations the PSP version had. Leaving aside the general squared 2048p resolution cap, there were several lower caps in many regions of the game, so just upscaling the portraits would make the game crash. The Geofront programmers had to hack into the original code, and thus these limitations were removed completely. Another good thing about this fix can be seen in terms of FMVs. While I do prefer to keep the original opening of the game, the other FMVs have been encoded at higher resolution in the Vita version (double than PSP and PC). So, excluding the OP and ED if you prefer the originals, you can now use the Evolution FMVs.
 
