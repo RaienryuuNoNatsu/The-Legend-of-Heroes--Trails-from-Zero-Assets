@@ -27,22 +27,30 @@ With the preparations out of the way, we can actually talk about the project in 
 
 ## The core of the project
 
-So, as I said, the main objective is to to bring the portraits up to speed, but I wanna talk a bit more in-depth about what that entails. So, let me present to you **Eiyuu Densetsu: Zero no Kiseki KIWAMI**!
+So, as I said, the main objective is to bring the portraits up to speed, but I wanna talk a bit more in-depth about what that entails. So, let me present to you **Eiyuu Densetsu: Zero no Kiseki KIWAMI**!
 
 ![Pic1](doc/res/00.png)
 
-Yes, I took the liberty of adapting the logo using the name of this project. A big thank you to **[Solabalossa]**(https://www.youtube.com/channel/UC5F_He18MGpwZxVrsr8uZUA) who made the logo, and to **tobeavailablesoon** who worked on a few details and refinements. The result of their combined efforts is what follows.
+Yes, I took the liberty of adapting the logo using the name of this project. A big thank you to [**Solabalossa**](https://www.youtube.com/channel/UC5F_He18MGpwZxVrsr8uZUA) who made the logo, and to **tobeavailablesoon** who worked on a few details and refinements. The result of their combined efforts is what follows.
 
 ![Pic2](doc/res/01.png)
+(*The loading screen, which rarely appears but has a few chances to shine.*)
 
-As you can see, I tried to be as consistent as I could, and made sure to not miss these details. With the presentation out of the way, it's comparisons timeand I have a good example of the yellowish shade I was talking about at the beginning.
+As you can see, I tried to be as consistent as I could, and made sure to not miss these details. With the presentation out of the way, it's comparisons time and I have a good example of the yellowish shade I was talking about at the beginning.
 
 ![Pic3](doc/res/02.png)
 
-As showed, the idea is that all these kind of portraits have been fixed. This means **dialogue portraits**, **half-body portraits**, **battle portraits**, **cooking portraits**, and so on so forth. Let'see a few comparisons, just so you can have an idea of what's been changed.
+As showed, the idea is that all these kind of portraits have been fixed. This means **dialogue portraits**, **half-body portraits**, **battle portraits**, **cooking portraits**, and so on so forth. Not only that, but you probably noticed how some elements of the UI differ from the original. Those were ported from the Evolution version. Let'see a few more comparisons, just so you can have an idea of what's been changed.
 
 ![Pic4](doc/res/03.png)
 (*Don't mind the missing HP/EP/CP bars, that's just me messing around with assets. It's NOT a bug of the original game.*)
+
+As you can see, the battle portraits are much better now. To be completely fair, these weren't ported from Evolution. I instead decided to use the PC *Ao no Kiseki* ones, which are superior in any way, shape, and form. The battle menu palette is the original, but I rewrote the Kanji for each input. The style is similar to Evolution, the font is the same you can see in the camp menu, and it's the one I'm using for dialogues as well. Parameters icons on top of the characters' sprites, and the turn bonuses icons have also been changed. Mostly because they tend to have smoother edges.
+
+![Pic5](doc/res/04.png)
+(*I couldn't quite catch the exact frame, but you get the idea.*)
+
+This treatment has also been reserved for Rushes and Conbi-Crafts.
 
 There's a catch: the Geofront patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
 
