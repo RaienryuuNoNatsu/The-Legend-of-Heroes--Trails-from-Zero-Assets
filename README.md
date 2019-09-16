@@ -52,7 +52,17 @@ As you can see, the battle portraits are much better now. To be completely fair,
 
 This treatment has also been reserved for Rushes and Conbi-Crafts.
 
-There's a catch: the Geofront patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
+![Pic6](doc/res/05.png)
+(*Again, don't mind the missing black bars in the original.*)
+
+I guess this is proof enough, as the most obvious issues have been fixed. I didn't showcase a few sets of portraits, but they mostly share their resolution with those I left here, so you can guess the final result.
+
+There's, however, a catch: the Geofront Patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront Patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
+
+![Pic7](doc/res/06.png)
+
+All of these have been imported from Evolution. As mentioned, the Geofront Patch will feature the English version of these files instead.
+**NOTE:** This one is important. I chose this comparison to show you how they messed up in the original assets. They're telling you that to check the achievements, you'll have to navigate to the *Status Menu > Record*. But you all know Record is under **System**, which I went out of my way and fixed.
 
 All the portraits I mentioned have been doubled (some even quadrupled) in terms of resolution. Unfortunately, as I mentioned at the beginning, the PC version came out with many bugs and also kept the limitations the PSP version had. Leaving aside the general squared 2048p resolution cap, there were several lower caps in many regions of the game, so just upscaling the portraits would make the game crash. The Geofront programmers had to hack into the original code, and thus these limitations were removed completely. Another good thing about this fix can be seen in terms of FMVs. While I do prefer to keep the original opening of the game, the other FMVs have been encoded at higher resolution in the Vita version (double than PSP and PC). So, excluding the OP and ED if you prefer the originals, you can now use the Evolution FMVs.
 
