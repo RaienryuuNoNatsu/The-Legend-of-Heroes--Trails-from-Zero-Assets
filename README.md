@@ -55,6 +55,10 @@ This treatment has also been reserved for Rushes and Conbi-Crafts.
 ![Pic6](doc/res/05.png)
 (*Again, don't mind the missing black bars in the original.*)
 
+![Pic7](doc/res/06.png)
+
+This one wasn't exactly necessary. They both share the same resolution (even though the Evolution one is cleaner), and in-game they wouldn't look that much different, specially without a side-by-side comparison. The reason for this one is that I'll be going to work on Ao no Kiseki as well, and unfortunately the PC version has these in Chinese. For consistency, I decided to grab the Evolution ones for Zero no Kiseki as well.
+
 I guess this is proof enough, as the most obvious issues have been fixed. I didn't showcase a few sets of portraits, but they mostly share their resolution with those I left here, so you can guess the final result.
 
 There's, however, a catch: the Geofront Patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront Patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
