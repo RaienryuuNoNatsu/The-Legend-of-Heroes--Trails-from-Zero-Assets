@@ -63,11 +63,11 @@ There's, however, a catch: the Geofront Patch has been made with the intent to h
 
 All of these have been imported from Evolution. As mentioned, the Geofront Patch will feature the English version of these files instead.
 
-![Pic7](doc/res/07.png)
+**NOTE:** This one is important. I chose this comparison to show you how they messed up in the original assets. They're telling you that to check the achievements, you'll have to navigate to the *Status Menu > Record*. But you all know Record is under **System**, which I went out of my way and fixed.
+
+![Pic8](doc/res/07.png)
 
 This one wasn't exactly necessary. They both share the same resolution (even though the Evolution one is cleaner), and in-game they wouldn't look that much different, specially without a side-by-side comparison. The reason for this one is that I'll be going to work on Ao no Kiseki as well, and unfortunately the PC version has these in Chinese. For consistency, I decided to grab the Evolution ones for Zero no Kiseki as well.
-
-**NOTE:** This one is important. I chose this comparison to show you how they messed up in the original assets. They're telling you that to check the achievements, you'll have to navigate to the *Status Menu > Record*. But you all know Record is under **System**, which I went out of my way and fixed.
 
 All the portraits I mentioned have been doubled (some even quadrupled) in terms of resolution. Unfortunately, as I mentioned at the beginning, the PC version came out with many bugs and also kept the limitations the PSP version had. Leaving aside the general squared 2048p resolution cap, there were several lower caps in many regions of the game, so just upscaling the portraits would make the game crash. The Geofront programmers had to hack into the original code, and thus these limitations were removed completely. Another good thing about this fix can be seen in terms of FMVs. While I do prefer to keep the original opening of the game, the other FMVs have been encoded at higher resolution in the Vita version (double than PSP and PC). So, excluding the OP and ED if you prefer the originals, you can now use the Evolution FMVs.
 
