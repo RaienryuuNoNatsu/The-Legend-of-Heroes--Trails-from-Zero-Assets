@@ -7,9 +7,9 @@ The aim of this project is to attempt to upgrade the look of various portraits i
 
 This isn't by far an original project, and thus some users may already know where I'm going with this. Believe it or not, many of the assets available in the Vita version of the game had the same resolution as the PC version. Heck, there are even assets at higher resolutions. Unfortunately though, the **dialogue portraits (and not only those) aren't part of those lucky assets**. While the PC version features 384p portraits, the Vita version runs them at 256p. In these cases, where possible, I used **Waifu2x**.
 
-For those who don't know what that is, it's a [**Convolutional Neural Network**](https://en.wikipedia.org/wiki/Convolutional_neural_network) whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter. The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a way the artifacts.
+For those who don't know what that is, it's a [**Convolutional Neural Network**](https://en.wikipedia.org/wiki/Convolutional_neural_network) whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter. The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a sense the artifacts.
 
-**NOTE**: I began working on this project quite some time ago. I'll keep researching this subject, and eventually update the assets as I find better methods. I'm also open to suggestions about which Neural Network to test, should anyone among the users know about a better one.
+**NOTE**: I began working on this project quite some time ago. I'll keep researching this subject, and eventually update the assets as I find better methods. I'm also open to suggestions about which Neural Network to test, should anyone among the users know about a better one. There's also the possibility to decrypt the upcoming Kai versions on PS4, but don't quote me on this just yet. If it'll be possible at all, I will update the project.
 
 ## Preparation
 
@@ -57,11 +57,9 @@ This treatment has also been reserved for Rushes and Conbi-Crafts.
 
 I guess this is proof enough, as the most obvious issues have been fixed. I didn't showcase a few sets of portraits, but they mostly share their resolution with those I left here, so you can guess the final result.
 
-There's, however, a catch: the Geofront Patch has been made with the intent to have full support for both English and Japanese. What this implies is, while portraits are fine and independent from which language you choose, it's a different story when it comes to assets like the Notebook's files. The Geofront Patch comes with the English files, but it will support the Japanese ones as well. You'll get the latter from my project, so keep this in mind.
-
 ![Pic7](doc/res/06.png)
 
-All of these have been imported from Evolution. As mentioned, the Geofront Patch will feature the English version of these files instead.
+All of these have been imported from Evolution.
 
 **NOTE:** This one is important. I chose this comparison to show you how they messed up in the original assets. They're telling you that to check the achievements, you'll have to navigate to the *Status Menu > Record*. But you all know Record is under **System**, which I went out of my way and fixed.
 
@@ -70,8 +68,6 @@ All of these have been imported from Evolution. As mentioned, the Geofront Patch
 This one wasn't exactly necessary. They both share the same resolution (even though the Evolution one is cleaner), and in-game they wouldn't look that much different, specially without a side-by-side comparison. The reason for this one is that I'll be going to work on Ao no Kiseki as well, and unfortunately the PC version has these in Chinese. For consistency, I decided to grab the Evolution ones for Zero no Kiseki as well.
 
 All the portraits I mentioned have been doubled (some even quadrupled) in terms of resolution. Unfortunately, as I mentioned at the beginning, the PC version came out with many bugs and also kept the limitations the PSP version had. Leaving aside the general squared 2048p resolution cap, there were several lower caps in many regions of the game, so just upscaling the portraits would make the game crash. The Geofront programmers had to hack into the original code, and thus these limitations were removed completely. Another good thing about this fix can be seen in terms of FMVs. While I do prefer to keep the original opening of the game, the other FMVs have been encoded at higher resolution in the Vita version (double than PSP and PC). So, excluding the OP and ED if you prefer the originals, you can now use the Evolution FMVs.
-
-And finally, the Evolution version features 5 extra sidequests. Those have been ported to the PC version as well, and of course require some assets to display correctly in game.
 
 ## Installation process
 
