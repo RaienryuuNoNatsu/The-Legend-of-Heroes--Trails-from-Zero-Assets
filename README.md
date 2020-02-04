@@ -1,15 +1,15 @@
 Eiyuu Densetsu -Zero no Kiseki KIWAMI-: an assets upgrade project
 =========
 
-The aim of this project is to attempt to upgrade the look of various portraits in the PC version of *The Legend of Heroes: Trails from Zero*. As many of you probably already know, Trails from Zero has been ported from PSP to PC and released in China by JOYOLAND. Long story short, in 2013 it was localized to Japanese and released with **Windows 8 support**. However, the game didn't come free of bugs and graphical issues, the most common of which was the yellowish shade all portraits features. What I tried to do was to fix this issue by porting the good assets from the *Evolution version* of the game, all the while trying to upscale them to better fit the higher resolution of the PC version. From Evolution, I also ported a few other things, and they'll be included in this package as a separate download. We'll go into details in a bit.
+The aim of this project was to attempt to upgrade the look of various portraits in the PC version of *The Legend of Heroes: Trails from Zero*. As many of you probably already know, Trails from Zero has been ported from PSP to PC and released in China by JOYOLAND. Long story short, in 2013 it was localized to Japanese and released with **Windows 8 support**. However, the game didn't come free of bugs and graphical issues, the most common of which was the yellowish shade all portraits features. What I tried to do was to fix this issue by porting the good assets from the *Evolution version* of the game, all the while trying to upscale them to better fit the higher resolution of the PC version. From Evolution, I also ported a few other things, which I mostly felt looked cleaner (aka, not necessarily higher resolution, but less artifacts). We'll go into details in a bit.
+
+**EDIT (February 04, 2020)**: Now that this is out of the way, after 2 years, I'm calling this project quit. I have various reasons, one of which is the final result. As you'll read further ahead, this is hardly a perfect project, and there's a lot going on that doesn't work with the Geofront patch for many reasons. Now, the Kai versions are coming to PS4, and with even a slim chance of those being decrypted, all this work will go to waste. Will they really be decrypted? Hey, I ain't Nostradamus, sorry! I'll make this project public, and everyone will be able to do with it whatever they want. Fork it, remake it, ignore it. Do whatever you want, I have no longer any attachment to this project. I will leave beyond all the material that makes sense leaving behind, and notes about its use. I will also leave behind the initial and final release, just in case. End of the edit, you can keep reading, if you care enough to do so.
 
 ## The method
 
-This isn't by far an original project, and thus some users may already know where I'm going with this. Believe it or not, many of the assets available in the Vita version of the game had the same resolution as the PC version. Heck, there are even assets at higher resolutions. Unfortunately though, the **dialogue portraits (and not only those) aren't part of those lucky assets**. While the PC version features 384p portraits, the Vita version runs them at 256p. In these cases, where possible, I used **Waifu2x**.
+This isn't by far an original project, and thus some users may already know where I'm going with this. Believe it or not, some of the assets available in the Vita version of the game had the same resolution as the PC version. Heck, there are even assets at higher resolutions. Unfortunately though, the **dialogue portraits (and not only those) aren't part of those lucky assets**. While the PC version features 384p portraits, the Vita version runs them at 256p. In these cases, where possible, I used **Waifu2x**.
 
-For those who don't know what that is, it's a [**Convolutional Neural Network**](https://en.wikipedia.org/wiki/Convolutional_neural_network) whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter. The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a sense the artifacts.
-
-**NOTE**: I began working on this project quite some time ago. I'll keep researching this subject, and eventually update the assets as I find better methods. I'm also open to suggestions about which Neural Network to test, should anyone among the users know about a better one. There's also the possibility to decrypt the upcoming Kai versions on PS4, but don't quote me on this just yet. If it'll be possible at all, I will update the project.
+For those who don't know what that is, it's a [**Convolutional Neural Network**](https://en.wikipedia.org/wiki/Convolutional_neural_network) whose primary objective is to upscale pictures and reduce noise. Waifu2x is mainly trained to work with Anime art styles, but it can handle photos as well. Now, I can't stress this enough, but this isn't a perfect method. While it might work fine with in-game sprites, portraits with defined linearts like in our case suffer from its smoothing filter, which also causes line thinning (more or less severe depending on the chosen algorithm). The reason why this method works is because portraits are displayed at a lower resolution than what I achieved, *masking* in a sense the artifacts.
 
 ## Preparation
 
@@ -31,7 +31,7 @@ So, as I said, the main objective is to bring the portraits up to speed, but I w
 
 ![Pic1](doc/res/00.png)
 
-Yes, I took the liberty of adapting the logo using the name of this project. A big thank you to [**Solabalossa**](https://www.youtube.com/channel/UC5F_He18MGpwZxVrsr8uZUA) who made the logo, and to **tobeavailablesoon** who worked on a few details and refinements. The result of their combined efforts is what follows.
+Yes, I took the liberty of adapting the logo using the name of this project. A big thank you to [**Solabalossa**](https://www.youtube.com/channel/UC5F_He18MGpwZxVrsr8uZUA) who made the logo, and to **tobeavailablesoon** who worked on a few details and refinements. The result of their combined efforts is what follows. Also, the white pixels at the bottom have been fixed, it was my mistake in judging the final placement and vertical resolution of the asset.
 
 ![Pic2](doc/res/01.png)
 (*The loading screen, which rarely appears but has a few chances to shine.*)
@@ -69,6 +69,28 @@ This one wasn't exactly necessary. They both share the same resolution (even tho
 
 All the portraits I mentioned have been doubled (some even quadrupled) in terms of resolution. Unfortunately, as I mentioned at the beginning, the PC version came out with many bugs and also kept the limitations the PSP version had. Leaving aside the general squared 2048p resolution cap, there were several lower caps in many regions of the game, so just upscaling the portraits would make the game crash. The Geofront programmers had to hack into the original code, and thus these limitations were removed completely. Another good thing about this fix can be seen in terms of FMVs. While I do prefer to keep the original opening of the game, the other FMVs have been encoded at higher resolution in the Vita version (double than PSP and PC). So, excluding the OP and ED if you prefer the originals, you can now use the Evolution FMVs.
 
-## Installation process
+## Final notes (February 04, 2020)
 
-You can download the archive from the [Releases](https://github.com/RaienryuuNoNatsu/The-Legend-of-Hereos--Trails-from-Zero-Assets/releases) page, and just drag & drap the data folder into the main one. If you wanna customize the assets to your heart content, you can clone the whole repository, do your thing, and then run the .bat file to convert the PNGs to ITPs. Then drag & drop the result.
+So, what needs attention?
+
+#### 1. Battle UI
+
+Files inside `battle/itp` need to be checked, specially **battle.png**. There's clipping going on, both on top of the AT Bar and bottom right where the back row characters are. The content of `effect/texture` is mostly irrelevant, but notice how the half-bosy portraits are at 512p, vastly different from the entire logic of this project. Deal is, those are used both for S-Crafts, Conbi-Crafts, and Rushes. While S-Crafts work properly, the game can't be arsed to adapt them to their Conbi-Crafts/Rushes canvases.
+
+#### 2. Camp Menu
+
+The stuff in `etc` is, once again, partly irrelevant and completely up to the users if they wanna use them or not. However, **c_icon1.png** and **c_icon2.png** suffer of the same clipping I mentioned before. The Orbment menu is a good example, and that requires a lot of tinkering with the PNG (or just keep the original). The entire content of the notebook also needs to be slightly fixed, as the Geofront patch replaced the button prompts based on the chosen controller, and this setting also affects all **c_notesxx.png** files. This must be done in either case, being that you use the originals or EVOs.
+
+#### 3. Dialogues and Visuals
+
+The folders I didn't mention are entirely up to the users, so let's move on to the final stretch. The content of the `face` folder is possibly the part I hate the most. Recently I had to fix the poor cleaning of all Randy's portraits, on top of trying to fix KeA's ones. Since I don't know if people like them I decided to keep the EVO ones, and I made an archive which uses the Ao portraits that were edited manually. This was done because the halo around her Ao portraits wasn't as clean as I thought, contrarily to what someone could think. 8bits my dudes, that's all you get, and that's all Ao no Kiseki offers. These edited portraits are inside the **Attempted_KeA_Portraits_Fix(Azure_base).zip** archive, and won't be inside the initial release. If you want them, clone the project and decide for yourselves. However, as this fix has happened literally last week, it's not complete. The `visual/bu01101.png` file also needs to be edited for consistency, so it's up to you if you wanna keep the archive, or discard it altogether. Again, most of `visual` is irrelevant to you users, it was mostly my desire. However, `visual/ex_keaxx.png` are also back to their native resolution. Like the S-Craft portraits, these are her **Extra Menu** portraits. The game can't be arsed to cache them, so higher resolutions files cause a huge performance tank. Smart move to have voice files and 4 portraits load every single time in a **scrolling** menu. Who even programmed the base game?
+
+#### 4. Ao no Kiseki
+
+**Ao_no_Kiseki(Battle portraits)** exists because I thought I could make the Japanese version has I had envisioned it, and Ao no Kiseki would've been the next step. While making the Zero no Kiseki ones, I went the extra mile and made those as well. I'm leaving them here, for reasons, because I had the Ao folder ready but it's just a waste of space, so I merged them.
+
+## Installation process (February 04, 2020)
+
+A release will come fairly soon. It depends on my upload speed, which is nothing to brag about. It'll be my initial and final release, I'm not gonna accept PRs. Once in your hands, you can do whatever you want with them, even tell people they're actually of your own making. With that said, remember that will this project is now public, you **WILL** need the Geofront patch linked above.
+
+You can download the archive from the [Releases](https://github.com/RaienryuuNoNatsu/The-Legend-of-Heroes--Trails-from-Zero-Assets/releases) page(once available). At this point, the content as is will be in PNG, which doesn't work with the game as it looks for ITPs instead. The reason I'm leaving them as PNGs is so you can choose what to keep and what to drop. Once you're done deciding, just hit the **Convert.bat** which will simply change the files extension. Now, drag & drop the entire `data` folder in the main game's directory.
